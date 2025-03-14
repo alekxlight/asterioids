@@ -30,3 +30,6 @@ class Asteroid( circleshape.CircleShape ):
         cw_asteroid = Asteroid( self.position.x, self.position.y, new_radius );
         cw_asteroid.velocity = cw_vector * 1.2;
         return;
+
+
+    
